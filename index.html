@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <div>
+      <form>
+        <label for="text">First Name*</label>
+        <input type="text" placeholder="Your first name" />
+        <br />
+        <label for="text">First Name*</label>
+        <input type="text" placeholder="Your last name" />
+        <br />
+        <label for="text">Password*</label>
+        <input type="password" placeholder="create a password" />
+        <br />
+        <label for="date">Birthdate:</label>
+        <input type="date" placeholder="your birthday" />
+        <br />
+
+        <input type="radio" name="font" />
+        <label for="bold">Male</label>
+        <input type="radio" name="font" />
+        <label for="bold">Female</label>
+        <input type="radio" name="font" />
+        <label for="bold">Non-binary</label>
+        <input type="radio" name="font" />
+        <label for="bold">I prefer not to answer</label>
+
+        <br />
+        <h4>A short description about myself:</h4>
+        <textarea
+          name="description"
+          id="description"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <br />
+        <label for="select">Favorite Language</label>
+        <select name="select" id="select">
+          <option value="1">Javascript</option>
+          <option value="2">Python</option>
+          <option value="3">C++</option>
+        </select>
+        <br />
+        <input type="checkbox" id="checkbox" />
+
+        <label for="checkbox"
+          >Yes, I would like to receive periodic email updates</label
+        >
+        <br />
+        <button><b>Create Account</b></button>
+        <h6>* indicates a required field</h6>
+      </form>
+    </div>
+  </body>
+</html>
